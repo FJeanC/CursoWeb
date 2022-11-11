@@ -5,8 +5,8 @@ import NavItem from './NavItem'
 export default props => 
     <aside className='menu-area'>
         <nav className="menu">
-            <NavItem path="#" property="fa fa-home" text="Início"/>
-            <NavItem path="#/users" property="fa fa-users" text="Usuários" />
+            <NavItem path="/" property="fa fa-home" text="Início"/>
+            <NavItem path="/users" property="fa fa-users" text="Usuários" />
             {/* <a href="#">
                 <i className="fa fa-home"></i>
                 Início

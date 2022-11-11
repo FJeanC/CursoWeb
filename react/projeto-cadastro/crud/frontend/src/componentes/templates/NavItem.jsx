@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default props => 
     <React.Fragment>
-        <a href={props.path}>
+        <Link to={props.path}>
             <i className={props.property}></i>
             {props.text}
-        </a>
+        </Link>
     </React.Fragment>
