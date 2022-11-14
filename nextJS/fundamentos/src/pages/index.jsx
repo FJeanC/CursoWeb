@@ -12,6 +12,8 @@ export default function Inicio() {
             <Navegador texto="Estiloso" destino="/estiloso"/>
             <Navegador texto="Exemplo" destino="/exemplo" cor="purple"/>
             <Navegador texto= "JSX" destino="/jsx" cor="crimson"/>
+            <Navegador texto= "Navegação #001" destino="/navegacao/" cor="green"/>
+            <Navegador texto= "Navegação #002" destino="/cliente/sp-2/123" cor="blue"/>
         </div>
     )
 }
