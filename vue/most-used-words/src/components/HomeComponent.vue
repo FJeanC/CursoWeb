@@ -17,8 +17,11 @@
       </div>
   </v-container>
 </template>
+
 <script>
+const { api } = window;
 import Pill from './PillComponent.vue'
+
 export default {
   components: { Pill },
   data: function () {
@@ -34,6 +37,11 @@ export default {
   methods: {
     processSubtitles() {
       console.log(this.files)
+      // ipcRenderer.send('blabla', 'ping')
+      api.request('blabla', 'ping')
+      // window.electron.ipcRenderer.on('blabla', (event, resp) => {
+      //   console.log(resp)
+      // })
     }
   }
 }
