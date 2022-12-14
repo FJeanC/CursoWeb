@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Notebook Mac Pro",
-      "price": 12000.89
+      "price": "14444.89"
     },
     {
       "id": 3,
@@ -18,7 +18,7 @@
     {
       "id": 4,
       "name": "Lapis Preto Básico",
-      "price": "1.50"
+      "price": "2.50"
     },
     {
       "name": "Formulario teste",
