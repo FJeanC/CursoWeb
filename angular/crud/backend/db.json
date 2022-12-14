@@ -19,6 +19,16 @@
       "id": 4,
       "name": "Lapis Preto Básico",
       "price": "1.50"
+    },
+    {
+      "name": "Formulario teste",
+      "price": "9.99",
+      "id": 5
+    },
+    {
+      "name": "Geladeira",
+      "price": "1999",
+      "id": 6
     }
   ]
 }
