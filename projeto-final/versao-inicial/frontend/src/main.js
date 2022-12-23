@@ -5,6 +5,7 @@ import App from './App'
 import store from './config/store'
 import './config/bootstrap'
 import router from './config/router'
+import './config/msg'
 Vue.config.productionTip = false
 
 //Temporario
