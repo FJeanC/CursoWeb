@@ -4,7 +4,7 @@
             <i class="fa fa-lang" :class="icon"></i>
         </a>
         <h1 class="title">
-            {{ title }}
+            <router-link to="/">{{ title }}</router-link>
         </h1>
         <UserDropdown v-if="!hideUserDropdown" />    </header>
 </template>
@@ -51,6 +51,10 @@ export default {
     }
 
     .title a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .title a:hover {
         color: #fff;
         text-decoration: none;
     }
