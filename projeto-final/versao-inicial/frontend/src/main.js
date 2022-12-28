@@ -8,7 +8,6 @@ import router from './config/router'
 import './config/msg'
 Vue.config.productionTip = false
 
-//Temporario
 
 new Vue({
   store,
